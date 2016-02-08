@@ -1,0 +1,49 @@
+/************Drop Down Custom**************/
+
+.dropdown-icon{
+    color: #000;
+    font-size: 18px;
+}
+
+select::-ms-expand {
+    display: none;
+}
+
+.dropdown-select {
+    background: transparent;
+    width: 250px;
+    padding: 5px;
+    font-size: 16px;
+    line-height: 1;
+    border: 0;
+    border-radius: 0;
+    height: 34px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+.styled-select select {
+    border: 1px solid #aaa;
+    position: relative;
+}
+
+.inner-addon {
+    position: relative;
+    width: 250px;  /*should be equal to .dropdown-select width*/
+}
+
+.inner-addon .fa {
+    position: absolute;
+    top: 0px;
+    padding: 8px;
+    pointer-events: none;
+}
+
+.right-addon .fa {
+    right: 0;
+}
+
+/************Drop Down Custom**************/
+
+
